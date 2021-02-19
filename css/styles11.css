@@ -1,0 +1,42 @@
+body {
+    text-align:center;
+}
+.block{
+    background:palegreen;
+    color: purple;
+    /* display:inline; */
+    width: 200px;
+    margin:10px auto;
+}
+.inline {
+    background:rebeccapurple;
+    color: white;
+    /* display: block; */
+}
+.body {
+    margin:0;
+    text-align:initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+ul li {
+list-style-type: none;
+color:orange;
+}
+ul li a{
+    color:#222;
+    text-decoration:none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background:#222;
+    color:white;
+    display:block;
+    padding: 10px 10px;
+    margin: 10px;
+}
+div a {
+    font-size:40px;
+    background:#506050;
+    margin: 20px;
+    display:inline-block;
+    padding:10px;
+}
