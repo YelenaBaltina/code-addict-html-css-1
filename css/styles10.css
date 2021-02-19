@@ -1,0 +1,48 @@
+*{
+    margin:20px;
+}
+
+*{
+    margin:0;
+}
+h1 {
+    background-color: coral;
+    /* padding:20px; */
+    /* padding: 30px 60px; */
+    /* /* padding: 30px 20px 50px 125px; */
+    margin: 100px;
+    border-color:rgb(124, 158, 167);
+    border-width:10px;
+    border-style:solid;
+    border-radius:20px;
+
+}
+p {
+    background-color:rgba(252, 167, 133) ;
+    padding: 25px;
+    margin: -100px 50px 25px 25px;
+    border: 15px solid rgb(218, 92, 140);
+    border-radius:50%;
+    text-align: justify;
+} 
+.buttons {
+    margin: 2rem;
+    background:orange;
+}
+a {
+    background:#999998;
+    padding: 2rem 1.5rem;
+    text-decoration: none; 
+    cursor:pointer;
+    color:#222;
+    text-transform:uppercase;
+    font-weight:700;
+}
+#one {
+    border: 5px solid rgb(216, 96, 16);
+
+}
+#two {
+    outline:5px solid orchid;
+    outline-offset: 10px;
+}

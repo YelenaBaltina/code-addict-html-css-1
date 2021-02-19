@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    
+    font-family: Roboto;
+    
+}
+/* h1 {
+ font-family: 'Cookie', cursive;   
+} */
+.one {
+font-weight:600;
+line-height: 2rem;
+word-spacing: 20px;
+text-decoration: overline;
+}
+.two {
+font-weight: 400;
+font-style: italic;
+text-indent: 3rem;
+letter-spacing:2px;
+text-decoration: underline;
+}
+.main {
+font-family:'Cookie', cursive;
+text-align: center;
+text-transform: capitalize;
+text-decoration: line-through;
+}
+.subheading {
+text-align:right;
+} 
+a {
+    font-size: 40px;
+    text-decoration:none;
+}

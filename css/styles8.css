@@ -1,0 +1,37 @@
+.relative {
+    font-size: 2em;
+}
+.absolute {
+    font-size: 16px;
+}
+.inner {
+    width:50%;
+    height:50%;
+    background:#e68dce;
+}
+.outer {
+    width:500px;
+    height:500px;
+    background:#37215a;
+    color: #ffffff;
+}
+.header {
+    height:100vh;
+    width:100vw;
+    background:#e68dce;
+}
+h2 {
+    color:#37215a;
+    background:#e68dce;
+}
+.navbar {
+    background:black;
+    height:100px;
+    color:#ffffff;
+    font-size:3rem;
+}
+.banner {
+    min-height:calc(100vh - 130px);
+    /* width:50vw; */
+    background:yellow;
+}
