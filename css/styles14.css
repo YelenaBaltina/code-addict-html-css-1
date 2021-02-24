@@ -1,0 +1,64 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+div {
+   width: 150px;
+   height:150px;
+   /* margin:5px; */
+}
+.one {
+background:linear-gradient(red,violet);
+}
+.two {
+background:linear-gradient(to top, red,violet,cyan);
+}
+.three {
+background:linear-gradient(270deg, red,green);
+}
+.four {
+background:linear-gradient(0deg, red,violet);
+}
+.five {
+background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+.six {
+background:linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+
+.div2 {
+   min-height:100vh;
+   min-width:100vw;
+   display:flex;
+   align-items:center;
+justify-content:center;
+text-align:center;
+font-size:60px;
+color:rgb(255, 153, 0);
+background:black;
+
+}
+.div3 {
+   min-height:100vh;
+   min-width:100vw;
+   display:flex;
+   align-items:center;
+justify-content:center;
+text-align:center;
+font-size:60px;
+color:rgb(255, 153, 0);
+background:black;
+}
+.banner {
+background-image:url("./../image/coffeelogo2.png");
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.header {
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),
+url("./../image/coffeelogo2.png") center/cover no-repeat fixed;
+
+}

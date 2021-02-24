@@ -1,0 +1,35 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+div {
+    height:500px;
+    color:coral;
+}
+.big-image {
+   background: url("./../image/Beautiful-Wallpaper-of-Nature.jpg"); 
+   background-size:cover;
+}
+.small-image {
+   border:5px solid red;
+   /* background: url("./../image/small.jpg");  */
+   background-image: url("./../image/picture2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   /* background-position: 20% 50%; */
+   background-attachment:fixed;
+}
+.folder-image {
+   background: url("./../image/pretty_coffee.jpeg"); 
+}
+.div {
+   min-height: 100vh;
+   color:green;
+   display:flex;
+   font-size: 60px;
+   justify-content:center;
+   text-align:center;
+   align-items:center;
+}
