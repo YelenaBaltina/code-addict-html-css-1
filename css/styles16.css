@@ -1,0 +1,70 @@
+p::before {
+   content:"hello ";
+   font-weight:bold;
+   color:blueviolet;
+   font-size:25px;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+   display:block;
+   background:pink;
+}
+p::after {
+   content:" after";
+   font-weight:bold;
+   color:blueviolet;
+   font-size:25px;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+   display:block;
+   background:pink;
+}
+p::after {
+   content:"";
+   display:block;
+   background:indigo;
+   width:20px;
+   height:20px;
+}
+div {
+   width:50vw;
+   /* height:50vh; */
+   margin:50px auto;
+   /* border:10px solid indigo; */
+   position:relative;
+
+}
+img {
+   width:100%;
+   /* height:100%; */
+   display:block;
+}
+div::before {
+   content:"";
+   position:absolute;
+   border: 3px solid grey;
+   width:100%;
+   height:100%;
+   box-sizing:border-box;
+   top:-40px;
+   left:-40px;
+   z-index:-2;
+   transition: all 0.3s linear;
+}
+
+div::after {
+   content:"";
+   position:absolute;
+   background:grey;
+   width:100%;
+   height:100%;
+   box-sizing:border-box;
+   top:-20px;
+   left:-20px;
+   z-index:-1;
+   transition: all 0.3s linear;
+}
+
+div:hover::before,
+div:hover::after {
+   top:0;
+   left:0;
+}
+
