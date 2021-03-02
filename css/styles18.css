@@ -1,0 +1,28 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+div {
+  height:200px;
+   float:left;
+    width: 33.3%;
+}
+.one {
+   
+   background:coral;
+   
+}
+.two{
+   
+   background:cornflowerblue;
+   
+}
+.three{
+   
+   background:greenyellow;
+   
+}
+h1 {
+   clear:both;
+}

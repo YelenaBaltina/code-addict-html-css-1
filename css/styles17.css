@@ -1,0 +1,23 @@
+.banner {
+   padding:20px;
+   border: 5px solid pink;
+   overflow:hidden;
+}
+/* img {
+   float:left;
+} */
+.one {
+   float:right;
+   margin-left: 15px;
+}
+.two {
+   float:right;
+   width:240px;
+}
+p {
+      clear:both;
+}
+
+p {
+   clear:left;
+}
